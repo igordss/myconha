@@ -13,22 +13,22 @@ const Header = () => {
           </Link>
           <ul className="nav__menu">
             <li className="nav__menu-item">
-              <Link to="/" className="nav__menu-link">Flores</Link>
+              <Link to="/Flowers" className="nav__menu-link">Flores</Link>
             </li>
             <li className="nav__menu-item">
-              <Link to="/" className="nav__menu-link">Extrações</Link>
+              <Link to="/Extractions" className="nav__menu-link">Extrações</Link>
             </li>
             <li className="nav__menu-item">
-              <Link to="/" className="nav__menu-link">Concentrados</Link>
+              <Link to="/Concentrates" className="nav__menu-link">Concentrados</Link>
             </li>
             <li className="nav__menu-item">
-              <Link to="/" className="nav__menu-link">CBD</Link>
+              <Link to="/CBD" className="nav__menu-link">CBD</Link>
             </li>
             <li className="nav__menu-item">
-              <Link to="/" className="nav__menu-link">Bongs</Link>
+              <Link to="/Bongs" className="nav__menu-link">Bongs</Link>
             </li>
             <li className="nav__menu-item">
-              <Link to="/" className="nav__menu-link">Tabacaria</Link>
+              <Link to="/HeadShop" className="nav__menu-link">Tabacaria</Link>
             </li>
           </ul>
         </div>
@@ -41,13 +41,13 @@ const Header = () => {
           </div>
           <ul className="nav__menu">
             <li className="nav__menu-item">
-              <Link to="/" className="nav__menu-link">
+              <Link to="/Cart" className="nav__menu-link">
                 <FaShoppingCart className="cart-icon" />
                 <span className="cart-text">Ir para Carrinho</span>
               </Link>
             </li>
             <li className="nav__menu-item">
-              <Link to="/" className="nav__menu-link">
+              <Link to="/Login" className="nav__menu-link">
                 <FaUser className="user-icon" />
                 <span className="user-text">Fazer Login</span>
               </Link>
