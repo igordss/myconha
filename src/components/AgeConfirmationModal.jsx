@@ -1,11 +1,27 @@
 import React from 'react';
 import Modal from 'react-modal';
+import { connect } from 'react-redux';
+import { setAgeModalConfirmed } from '../actions';
 import { createPortal } from 'react-dom';
 import '../styles/ageModal.css';
 
-const AgeConfirmationModal = ({ isOpen, onRequestClose, onConfirm }) => {
+const AgeConfirmationModal = ({ isOpen, onRequestClose, onConfirm, ageConfirmed }) => {
+  const handleConfirm = () => {
+    onConfirm();
+    setAgeModalConfirmed();
+  }
+
+  const setAgeModalConfirmed = () => {
+    localStorage.setItem('ageConfirmed', true);
+  }
+
+  const isAgeConfirmed = () => {
+    const ageConfirmedInStorage = localStorage.getItem('ageConfirmed');
+    return ageConfirmed || ageConfirmedInStorage;
+  }
+
   return (
-    <>{isOpen &&
+    <>{!isAgeConfirmed() && isOpen &&
       createPortal(
         <Modal
           isOpen={true}
@@ -26,7 +42,7 @@ const AgeConfirmationModal = ({ isOpen, onRequestClose, onConfirm }) => {
           <h1 className='question'>Você tem 18 anos ou mais?</h1>
           <div className="modal-buttons">
             <button onClick={onRequestClose}>Não</button>
-            <button onClick={onConfirm}>Sim</button>
+            <button onClick={handleConfirm}>Sim</button>
           </div>
         </Modal>,
         document.body
@@ -35,4 +51,14 @@ const AgeConfirmationModal = ({ isOpen, onRequestClose, onConfirm }) => {
   );
 };
 
-export default AgeConfirmationModal;
+const mapStateToProps = (state) => {
+  return {
+    ageConfirmed: state.ageConfirmed,
+  };
+};
+
+const mapDispatchToProps = {
+  setAgeModalConfirmed,
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(AgeConfirmationModal);
