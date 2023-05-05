@@ -1,0 +1,12 @@
+.banner {
+    background-color: #ff69b4; /* cor rosa */
+    height: 80vh; /* altura de 60% da tela */
+    width: 100%; /* largura de 100% da tela */
+  }
+  
+  .content {
+    background-color: #fff; /* cor branca */
+    min-height: 20vh; /* altura mínima de 40% da tela */
+    width: 100%; /* largura de 100% da tela */
+  }
+  
