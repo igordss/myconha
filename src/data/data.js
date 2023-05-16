@@ -31,6 +31,7 @@ export const bongs = [
     imagem: "https://kingbong.com.br/media/catalog/product/cache/3ff223525045fa601f6eaefba2bd8f28/i/c/ice-bong-de-vidro-lion-cubs-1_2.webp ",
     descricao: "O Lion Cubs é um dos produtos mais vendidos da King Bong, sabe por quê? Porque além de ser super estiloso,  é potente e mantem toda a qualidade e segurança da King. O bong é feito de vidro borossilicato espesso e possui tubo downstem removível, o que facilita a limpeza do item. Além disso, o material do bong é extremamente resistente à alterações de temperatura, o que garante uma maior pureza para as suas bongadas. Com suporte para pedras de gelo, garante uma fumaça mais resfriada e uma maior redução de danos. Um item perfeito para bongadas puras ",
     tags: ["bong", "vidro"],
+    muitoVendido: true,
   },
   {
     id: 4,
@@ -233,6 +234,7 @@ export const cbd = [
     imagem: "https://leafly-public.imgix.net/strains/photos/bsJVwckRoqbWoEoiBzzg_Harlequin_jman_1080x0180.jpg",
     descricao: "Colombian Gold x Thai Sativa x Swiss Sativa x Nepali Indica. Seus efeitos medicinais acompanham uma sensação muito prazerosa de conforto e relaxamento mental, trazendo mais foco e uma melhor fluidez nos pensamentos, características que ajudam muito também no alivio da ansiedade.",
     tags: ["flor", "cbd"],
+    muitoVendido: true,
   },
   {
     id: 22,
@@ -266,6 +268,7 @@ export const cbd = [
     imagem: "https://santasementebr.com/wp-content/uploads/2021/10/cbdgrapepie.jpg",
     descricao: "Cherry Pie x Grape Stomper. Bastante procurada pelo alívio que traz para pessoas ansiosas ou depressivas, aliada aos efeitos que ajudam a lidar ainda com a insônia, dor crônica e também stress. A Grape Pie, pelos seus efeitos se mostra uma genética ideal para pacientes que buscam os efeitos medicinais sem a sensação de estar nas nuvens.",
     tags: ["flor", "cbd"],
+    muitoVendido: true,
   },
   {
     id: 25,
@@ -277,6 +280,7 @@ export const cbd = [
     imagem: "https://mypharma2go.com/storage/product/2471/7l369IYLwRt1T2T7VakHbKKswSDYxAEYee4wjQPq.png",
     descricao: "O óleo de CBD de 3000mg em um frasco de 30ml é uma opção ideal para aqueles que buscam um alto nível de concentração de CBD em sua rotina diária. Este produto é formulado com óleo de cânhamo de alta qualidade e é rico em canabinoides naturais.",
     tags: ["Óleo", "CBD"],
+    muitoVendido: true,
   },
   {
     id: 26,
@@ -288,6 +292,7 @@ export const cbd = [
     imagem: "https://www.phytopluscbd.com/image/cache/catalog/product/cbd-drops-300mg-phytoplus-750x1000.jpg",
     descricao: "O óleo de CBD 300mg 30ml da PhytoPlus CBD é um produto de alta qualidade e pureza, que oferece todos os benefícios do canabidiol em uma solução fácil de usar. Com 300mg de CBD em cada frasco de 30ml, este óleo é uma ótima opção para quem busca alívio do estresse, ansiedade, dor e inflamação.",
     tags: ["óleo", "CBD", "promoção"],
+    muitoVendido: true,
   },
   {
     id: 27,
@@ -435,6 +440,7 @@ export const concentrados = [
     imagem: "https://theherbcentre.co/wp-content/uploads/2022/08/Super-Lemon-Haze-Shatter.jpeg",
     descricao: "Descubra o sabor excepcional e o alto teor de THC do Shatter Super Lemon Haze da Myconha. Esta variedade sativa é conhecida por seu aroma cítrico e sabor doce e picante, proporcionando uma experiência de vaporização de alta qualidade. Com um teor de THC de 90%, este produto é altamente concentrado e projetado para usuários experientes. Aproveite ao máximo suas sessões de vaporização com o Shatter Super Lemon Haze da Myconha.",
     tags: ["concentrado", "shatter"],
+    muitoVendido: true,
   },
   {
     id: 39,
@@ -479,6 +485,7 @@ export const concentrados = [
     imagem: "https://product-assets.iheartjane.com/photos/92/ef/92ef46a6-5abd-4853-a755-8b822cad16f8.jpeg",
     descricao: "O budder de 90% THC feito da strain OG Kush da Myconha é um produto potente e com efeito corporal pesado e relaxante, ideal para uso noturno ou para quem busca alívio de dores e estresse. Seu alto teor de THC proporciona um efeito psicoativo forte e duradouro. É recomendado o uso com cautela e em doses moderadas.",
     tags: ["budder", "concentrado"],
+    muitoVendido: true,
   },
   {
     id: 43,
@@ -512,6 +519,7 @@ export const concentrados = [
     imagem: "https://cdn.shopify.com/s/files/1/0009/9716/3066/products/MedReleaf_Concentrates_Lemovura_LiveResin_1200x.jpg?v=1674587687",
     descricao: "Prepare-se para sentir a força com o Live Resin da Myconha, com a potente strain Death Star. Com um nível de THC de 80%, essa resina vai te levar a uma galáxia muito, muito distante. Sinta o poder da sonolência e relaxamento, enquanto a euforia toma conta do seu ser. Que a força esteja com você!",
     tags: ["live resin ", "concentrado", "promoção"],
+    muitoVendido: true,
   },
   {
     id: 46,
@@ -556,6 +564,7 @@ export const concentrados = [
     imagem: "https://qph.cf2.quoracdn.net/main-qimg-30cc87d5f0a967b51821bdc0c6632574-lq",
     descricao: "Esse shatter 50% THC da marca Myconha, feito da strain Tropicana Cookies, é como um raio de sol em um dia nublado! Ele te deixa energizado, motivado e ainda melhora o foco, para você realizar suas tarefas com mais precisão e clareza. Além disso, seu sabor é tão delicioso quanto uma torta de limão feita pela sua avó!",
     tags: ["shatter", "concentrado"],
+    muitoVendido: true,
   },
   {
     id: 50,
@@ -567,6 +576,7 @@ export const concentrados = [
     imagem: "https://gn-forum-upload-bucket.s3.dualstack.us-west-1.amazonaws.com/original/2X/4/4e8d415446c1410eea3891275774632d0d701930.jpg",
     descricao: "Nos laboratórios da Myconha, desenvolvemos a incrível cepa de rosin da strain Deregue Kush. Com a mais alta concentração de THC do mercado, surpreendentes 95%, é considerado o melhor rosin do mundo! Não acredita? Vencemos prêmios na Holanda, Uruguai e Estados Unidos pela qualidade da cepa e do rosin produzido. Além disso, experimente o efeito felicidade, risada fácil e a sensação de dividir momentos com os amigos. Mas cuidado, este rosin pode te levar a uma viagem sem volta. Ou você sobe a bordo ou fica para trás em posição fetal.",
     tags: ["rosin", "concentrado"],
+    muitoVendido: true,
   },
 
 ];
@@ -582,6 +592,7 @@ export const extracoes = [
     imagem: "https://cbd-alchemy.com/app/uploads/sites/5/2021/12/Charas-Product-Picture.jpg",
     descricao: "O Charas da Myconha é como um tesouro para os amantes da maconha. Ele é feito com muito amor e dedicação, coletado cuidadosamente das mãos dos nossos trabalhadores que colhem as nossas melhores plantas. É como uma mistura mágica de resinas de várias strains, que quando fumado, leva você a uma viagem incrível e única. O Charas é uma verdadeira joia, para ser apreciada lentamente e compartilhada com aqueles que você ama. Então, pegue um pouco de Charas, sente-se confortavelmente e aproveite a jornada com Myconha!",
     tags: ["charas", "extração", "promoção"],
+    muitoVendido: true,
   },
   {
     id: 52,
@@ -604,6 +615,7 @@ export const extracoes = [
     imagem: "https://greenleafexpress.io/wp-content/uploads/2020/08/Pink-Death-Kief.jpg",
     descricao: "Não é suco de laranja, mas é doce como se fosse! O kief híbrido de sabor cítrico da Myconha é uma seleção especial das melhores plantas híbridas com sabor de limão e laranja. É o tipo de kief que faz você querer chupar um limão inteiro, mas não faça isso, porque esse pózinho mágico é muito mais potente do que você pensa!",
     tags: ["kief", "extração"],
+    muitoVendido: true,
   },
   {
     id: 54,
@@ -659,6 +671,7 @@ export const extracoes = [
     imagem: "https://mybudshop.fr/wp-content/uploads/2021/10/resine-caramelo-cbd-puissante-500x500.jpg",
     descricao: "Ah, o Bubble Hash de Mango Kush da Myconha... é como se você tivesse acabado de chegar em uma ilha tropical, com a brisa do mar soprando no seu rosto e o aroma doce e suculento das mangas dançando em suas narinas. É como se a própria fruta tivesse sido transformada em um hash poderoso que leva você para uma jornada de aventura, talvez até mesmo mais emocionante do que a busca pelo tesouro de El Dorado. E com cada tragada, você pode sentir a exótica explosão de sabor e o relaxamento tropical descer pelo seu corpo como uma onda de prazer. É um hash que vai te deixar tão feliz quanto um macaco em um coqueiro",
     tags: ["bubble", "hash", "extração"],
+    muitoVendido: true,
   },
   {
     id: 59,
@@ -703,6 +716,7 @@ export const extracoes = [
     imagem: "https://kanaleg.com/wp-content/uploads/2022/02/hash-cbd-ice-o-lator-40-1200x1200.jpg",
     descricao: "O ice-o-lator feito da cepa vencedora da Cannabis Cup em Uruguai, Holanda e Estados Unidos, a famosa Deregue Kush. Com um sabor delicioso de blueberry mentolada e um toque de skunk, é uma extração que vai te levar para as nuvens. E o melhor de tudo, é produzida com a mais alta qualidade a partir de uma seleção cuidadosa de plantas da cepa campeã. Experimente agora e sinta a potência da Deregue Kush!",
     tags: ["ice", "iceolator", "hash", "extração"],
+    muitoVendido: true,
   },
   {
     id: 63,
@@ -791,6 +805,7 @@ export const extracoes = [
     imagem: "https://media.hhcp.fr/19/30-hhc-moroccan-hash.jpg",
     descricao: "Ah, o híbrido! Aquele que não sabe se é planta ou animal, se é indica ou sativa, se é doce ou picante. Mas olha, esse hash marroquino híbrido da Myconha é a mistura perfeita, meu amigo. Ele vai te deixar tão confuso quanto um peixe fora d'água, mas com um sorriso no rosto maior que o mundo. Com ele, você vai poder aproveitar o melhor dos dois mundos: o relaxamento da indica e a criatividade da sativa. Então se prepare para se sentir como se estivesse dançando no meio de uma fogueira com a energia de mil sóis!",
     tags: ["maroccan", "marroquino", "hash", "extração"],
+    muitoVendido: true,
   },
   {
     id: 71,
@@ -824,6 +839,7 @@ export const extracoes = [
     imagem: "https://cdn.shopify.com/s/files/1/2636/1928/products/00841569000205_01_compress_310102_8c00205d-43a5-4442-9166-1d1f7b2c2b29_1200x.jpg?v=1656599505",
     descricao: "Prepara-te para experimentar o hash afegão da Myconha, feito com a lendária cepa Skunk #1. Essa belezinha é como uma mistura entre um tapete persa de luxo e um skate de alta velocidade, com um sabor que faz a sua língua dançar a macarena. É o tipo de hash que você pode fumar depois de um longo dia de trabalho e sentir como se estivesse flutuando no espaço sideral, enquanto o universo todo faz um show particular só para você.",
     tags: ["afghani", "afegão", "hash", "extração"],
+    muitoVendido: true,
   },
   {
     id: 74,
@@ -923,6 +939,7 @@ export const extracoes = [
     imagem: "https://weed-deals.com/wp-content/uploads/2021/11/Mazar-Sharif-Hash-Bulk.jpg",
     descricao: "Ah, o Malana Cream Hash, o preferido dos Deuses Indianos! Feito com a lendária cepa de mesmo nome, é o segredo da vida eterna. Só não se esqueça de ter cuidado para não ficar preso no sofá por algumas eternidades também. Vai te deixar tão zen que até os monges vão ficar com inveja. Ideal para dias em que você precisa encontrar a paz interior, ou apenas ficar rindo sozinho sem motivo aparente.",
     tags: ["indian", "indiano", "hash", "extração"],
+    muitoVendido: true,
   },
 ];
 
@@ -937,6 +954,7 @@ export const flores = [
     imagem: "https://cdn.shopify.com/s/files/1/2426/0015/files/sour-diesel-strain-cannabis-flower-nug.png?v=1678849392",
     descricao: "A Sour Diesel é uma daquelas cepas que te fazem sentir como se estivesse em uma viagem pelo espaço sideral. Com um aroma que lembra gasolina e limão, é como se você estivesse sentado em uma nave espacial com o motor ligado. E quando você dá uma tragada, é como se tivesse decolado rumo às estrelas. Essa é uma daquelas flores que te fazem se sentir mais criativo, mais energético e mais focado. Ideal para quem precisa de um empurrãozinho para fazer tarefas chatas ou simplesmente quer deixar a mente voar. Mas cuidado para não se perder no universo, hein?",
     tags: ["flores", "flor", "flower"],
+    muitoVendido: true,
   },
   {
     id: 84,
@@ -948,6 +966,7 @@ export const flores = [
     imagem: "https://leafly-public.imgix.net/strains/photos/QRio3lTnO1PsVFx8Sxw1_super-lemon-haze_jman.jpg",
     descricao: "Se você já quis saber como seria fumar um limão gigante, essa é a sua chance! Com seus lindos e resinosos buds, essa flor vai fazer você se sentir como se estivesse em uma plantação de limoeiros em plena colheita. Seu sabor cítrico é tão intenso que você pode até mesmo sentir o gosto de limão na garganta. E seus efeitos? Bem, espere sentir-se tão feliz e elétrico quanto um limão prestes a ser transformado em limonada!",
     tags: ["flores", "flor", "flower"],
+    muitoVendido: true,
   },
   {
     id: 85,
@@ -981,6 +1000,7 @@ export const flores = [
     imagem: "https://images.leafly.com/flower-images/og-kush.png",
     descricao: "Prepare-se para ser nocauteado pela lendária OG Kush! Como uma pancada de um lutador de UFC, essa cepa vai te derrubar com um soco poderoso de relaxamento corporal e um chute de euforia cerebral. Seu sabor é uma mistura mágica de doces e terrosos, como se um unicórnio tivesse cagado um arco-íris no seu paladar. Fique pronto para desfrutar de uma viagem incrível até o sofá, enquanto seus problemas se desvanecem e você se sente como o mestre da maconha.",
     tags: ["flores", "flor", "flower"],
+    muitoVendido: true,
   },
   {
     id: 88,
@@ -1014,6 +1034,7 @@ export const flores = [
     imagem: "https://images.leafly.com/flower-images/blue-dream.png",
     descricao: "Blue Dream é uma cepa híbrida, com uma predominância sativa de cerca de 60% e indica de 40%. É conhecida por ser uma das cepas mais populares nos Estados Unidos, graças a seu sabor e aroma deliciosamente doces com notas de mirtilo e hortelã-pimenta. Com cerca de 17-24% de THC, é uma cepa potente que pode causar uma euforia relaxante e sensação de felicidade. É uma ótima escolha para aqueles que procuram alívio do estresse e da dor, enquanto ainda conseguem manter a mente lúcida o suficiente para realizar suas tarefas diárias.",
     tags: ["flores", "flor", "flower"],
+    muitoVendido: true,
   },
   {
     id: 91,
@@ -1102,6 +1123,7 @@ export const flores = [
     imagem: "https://leafly-public.imgix.net/strains/photos/DxPK2ckpRmSNCBTjoMHP_faux-purple-palm-tree-delight-weed-nug.png",
     descricao: "A Deregue Kush é uma cepa criada e desenvolvida nas estufas da Myconha. Vencedora de 3 copas cannabis ao redor do mundo (EUA, Holanda e Uruguai) e detentora do título de cepa com a maior porcentagem de THC no mundo, variando entre 38% e 41%. Sua aparência exótica apresenta flores roxas com partes verdes e pistilos amarelos. O sabor é uma mistura perfeita de blueberry mentolada com um toque de skunk. Com predominância sativa de 70% e 30% indica, seu efeito energizante traz risadas fáceis e sociabilidade, ao mesmo tempo que acalma e relaxa o corpo. A Deregue Kush é a escolha ideal para momentos de descontração com amigos ou para se aproveitar sozinho em tarefas criativas, domésticas ou em um momento de reflexão pessoal. E ai, meu guerreiro, bora fuba um dereguejohnson?",
     tags: ["flores", "flor", "flower"],
+    muitoVendido: true,
   },
   {
     id: 99,
@@ -1124,6 +1146,7 @@ export const flores = [
     imagem: "https://images.hytiva.com/Amnesia-Haze.jpg?mw667-mh1000",
     descricao: "A Amnesia Haze é tipo aquela pessoa que você conhece e não esquece mais, sabe? Ela é uma cepa sativa-dominante com um aroma cítrico e picante, e é perfeita para quem quer uma experiência cerebral bem intensa. O nome amnésia não é à toa, porque essa belezinha vai deixar sua mente no espaço, mas sem perder o senso de humor. Tente não esquecer onde colocou suas coisas ou o que tava falando e falhará miseravelmente",
     tags: ["flores", "flor", "flower"],
+    muitoVendido: true,
   },
   {
     id: 101,
@@ -1322,6 +1345,7 @@ export const flores = [
     imagem: "https://kamikazi.cc/wp-content/uploads/2022/12/KAMIKAZI-DOSIDOS-3.JPG-550-2.jpg",
     descricao: "Do-Si-Dos é uma cepa híbrida de maconha com predominância indica, originária da Califórnia, nos Estados Unidos. Seu nome é derivado de sua genética, que é uma combinação de duas variedades famosas: a OG Kush e a Girl Scout Cookies. Os botões de Do-Si-Dos são densos e cobertos de tricomas brilhantes, com um aroma forte e doce de nozes e terra. Quando consumida, ela produz um efeito relaxante e calmante, perfeito para reduzir o estresse e a ansiedade. É uma ótima escolha para um final de tarde tranquilo ou uma noite de sono tranquila.",
     tags: ["flores", "flor", "flower"],
+    muitoVendido: true,
   },
   {
     id: 120,
@@ -1333,6 +1357,7 @@ export const flores = [
     imagem: "https://leafly-public.imgix.net/strains/photos/HIhdYnYSQICmDZpoCnO1_Zkittlez.png",
     descricao: "Zkittlez é a maconha do arco-íris! Com um teor de THC que vai fazer você ver todas as cores, essa cepa híbrida equilibrada vai te levar a uma viagem saborosa e psicodélica. A predominância indica traz um relaxamento delicioso, enquanto a sativa te deixa com energia para dançar em cima do arco-íris. E o sabor? Ah, é como se você estivesse chupando uma bala saborizada com o melhor doce de todos os sabores do universo. É o tipo de maconha que você quer ter por perto quando estiver assistindo a um filme animado, comendo um saco inteiro de Skittles e se sentindo em paz com o mundo.",
     tags: ["flores", "flor", "flower"],
+    muitoVendido: true,
   },
   {
     id: 121,
@@ -1366,6 +1391,7 @@ export const flores = [
     imagem: "https://images.weedmaps.com/pictures/users/004/737/179/71785159_171204_42061_PineappleExpress_1.jpg",
     descricao: "A cepa que leva você direto para o paraíso tropical (ou pelo menos te faz sentir assim). Com sua mistura de sativa e indica, essa belezinha vai deixar você relaxado e feliz, com um sorriso tão grande que nem o Cheshire Cat teria inveja. Com um teor de THC que pode ultrapassar os 20%, é melhor garantir que você tem uma boa dose de petiscos antes de se entregar a essa aventura psicodélica. Se você gosta de risadas e diversão, essa é a cepa para você - só não se esqueça de chamar um amigo para rir junto!",
     tags: ["flores", "flor", "flower"],
+    muitoVendido: true,
   },
   {
     id: 124,
@@ -1388,6 +1414,7 @@ export const flores = [
     imagem: "https://leafly-public.imgix.net/strains/photos/YA0VM3EQdWeg3RdGTbXG_purple-kush_jman.jpg",
     descricao: "Se você é do tipo que gosta de ficar roxo de tanto rir, a Purple Kush é a cepa para você! Com sua predominância Indica de dar inveja, ela vai te deixar tão relaxado que até a preguiça vai ter inveja de você. E não se esqueça de levar uns salgadinhos para a viagem, porque com um teor de THC de até 27%, a fome é certa!",
     tags: ["flores", "flor", "flower"],
+    muitoVendido: true,
   },
   {
     id: 126,
@@ -1531,6 +1558,7 @@ export const flores = [
     imagem: "https://images.leafly.com/flower-images/defaults/generic/strain-37.png",
     descricao: "Love Potion é uma cepa que vai te deixar com tanta paixão que você vai pensar que é Cupido. Com uma porcentagem de THC de tirar o fôlego e uma predominância sativa, esses buds vão te dar asas. O sabor é doce como um beijo, com um toque de limão para dar um gosto cítrico. O cheiro é tão sedutor que seus vizinhos vão pensar que você está tendo uma festa do amor. E a aparência desses buds é tão linda que você pode até se apaixonar por eles. Então, pegue sua Love Potion e deixe a magia acontecer.",
     tags: ["flores", "flor", "flower"],
+    muitoVendido: true,
   },
   {
     id: 140,
@@ -1564,6 +1592,7 @@ export const flores = [
     imagem: "https://images.hytiva.com/Alaskan-Thunder-Fuck.jpg?mw667-mh1000",
     descricao: "Alaskan Thunder Fuck é uma strain que leva o nome a sério, pois é uma explosão de energia e euforia. Com uma predominância sativa, seus buds densos e cobertos de tricomas apresentam um sabor terroso e picante com um toque de limão. A THC pode chegar a impressionantes 27%, causando um forte efeito cerebral e eufórico, acompanhado de um relaxamento corporal suave. Seu aroma skunk pungente é inconfundível, deixando uma impressão duradoura mesmo depois de seu uso. Se você precisa de um impulso de energia e animação, o Alaskan Thunder Fuck pode ser a escolha perfeita.",
     tags: ["flores", "flor", "flower"],
+    muitoVendido: true,
   },
   {
     id: 143,
@@ -1586,6 +1615,7 @@ export const flores = [
     imagem: "https://images.hytiva.com/LSD.jpg?mw667-mh1000",
     descricao: "LSD é uma cepa com predominância sativa que apresenta um efeito psicodélico intenso, assim como seu nome sugere. Com um teor de THC geralmente entre 20-25%, essa cepa é conhecida por produzir efeitos eufóricos, criativos e energizantes. Os buds têm uma aparência densa e uma coloração verde clara, com uma cobertura de tricomas brancos que lhes dá um aspecto gelado. O sabor tem notas cítricas e terrosas, enquanto o cheiro é pungente e levemente adocicado. Prepare-se para uma viagem inesquecível com a LSD!",
     tags: ["flores", "flor", "flower"],
+    muitoVendido: true,
   },
   {
     id: 145,
@@ -1611,6 +1641,7 @@ export const tabacaria = [
     imagem: "https://cdn.iset.io/assets/55492/produtos/4980/sku-3729.jpg",
     descricao: "Sabe aquela seda fina e resistente que você sempre quis? Aquela que não te deixa na mão, que não rasga nem vira cinzas antes de você dar a primeira tragada? Então, essa é a seda Raw King Size. Com ela, você pode se sentir seguro e confiante, pronto para curtir suas ervas sem preocupações.",
     tags: ["headshop","tabacaria", "seda"],
+    muitoVendido: true,
   },
   {
     id: 147,
@@ -1699,6 +1730,7 @@ export const tabacaria = [
     imagem: "https://images.tcdn.com.br/img/img_prod/952861/anel_porta_cigarro_de_silicone_ultra420_grande_cor_sortida_15533_1_c9203381211aefd1e67e4a072d279b17.jpg",
     descricao: "Suporte de silicone para cigarros em formato de anel. Encaixa perfeitamente no dedo e permite segurança e conforto para o cigarro enquanto pratica outras atividades.",
     tags: ["headshop","tabacaria"],
+    muitoVendido: true,
   },
   {
     id: 155,
@@ -1820,6 +1852,7 @@ export const tabacaria = [
     imagem: "https://images.tcdn.com.br/img/img_prod/952861/pipe_de_vidro_deamp_k_caveira_29187_1_3fe3948ea683ee2d97c764de734d8ee7.jpg",
     descricao: "O pipe de vidro Caveira é uma peça única e estilosa para quem curte fumar com estilo. Feito de vidro resistente, este pipe apresenta um design criativo em formato de caveira, com detalhes em alto-relevo que dão uma sensação tátil agradável ao toque. Com seu tamanho compacto e portátil, é fácil levá-lo para qualquer lugar e desfrutar de uma fumaça suave e fresca a qualquer momento. Além disso, seu material transparente permite que você observe o processo de queima enquanto fuma, tornando a experiência ainda mais interessante. O pipe de vidro Caveira é a escolha perfeita para quem busca um visual único e uma experiência de fumar de qualidade.",
     tags: ["headshop","tabacaria", "pipe", "cachimbo"],
+    muitoVendido: true,
   },
   {
     id: 166,
@@ -1855,3 +1888,4 @@ export const tabacaria = [
     tags: ["headshop","tabacaria", "tabaco"],
   },
  ];
+
