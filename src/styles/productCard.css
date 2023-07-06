@@ -1,72 +1,70 @@
 .product-card {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .product-card__image-container {
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .product-card__image {
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: contain;
-  }
-  
-  .product-card__content {
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-  }
-  
-  .product-card__title {
-    margin-bottom: 8px;
-  }
-  
-  .product-card__prices {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 8px;
-  }
-  
-  .product-card__price {
-    font-weight: bold;
-  }
-  
-  .product-card__promo-price {
-    color: red;
-    font-weight: bold;
-  }
-  
-  .product-card__button {
-    margin-top: 8px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    padding: 8px;
-    cursor: pointer;
-  }
-  
-  .product-card__button:hover {
-    background-color: #0069d9;
-  }
-  
-  .product-card__link {
-    margin-top: 8px;
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  .product-card__link:hover {
-    text-decoration: underline;
-  }
-  
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  height: 400px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%; /* Definir uma largura fixa */
+  overflow: hidden; /* Para evitar que as imagens excedam o tamanho do container */
+}
+
+.product-image img {
+  height: 100%; /* Usar altura de 100% para preencher o container */
+  object-fit: contain; /* Garantir que a imagem mantenha a proporção e não distorça */
+}
+
+.product-title {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.product-price {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.add-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: darkgreen;
+}
+
+.see-more-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.see-more-button:hover {
+  background-color: darkgreen;
+}

@@ -441,6 +441,7 @@ export const concentrados = [
     descricao: "Descubra o sabor excepcional e o alto teor de THC do Shatter Super Lemon Haze da Myconha. Esta variedade sativa é conhecida por seu aroma cítrico e sabor doce e picante, proporcionando uma experiência de vaporização de alta qualidade. Com um teor de THC de 90%, este produto é altamente concentrado e projetado para usuários experientes. Aproveite ao máximo suas sessões de vaporização com o Shatter Super Lemon Haze da Myconha.",
     tags: ["concentrado", "shatter"],
     muitoVendido: true,
+    porPeso: true,
   },
   {
     id: 39,
@@ -452,6 +453,7 @@ export const concentrados = [
     imagem: "https://theherbcentre.co/wp-content/uploads/2022/08/MAC1-Shatter.jpeg",
     descricao: " Este produto é um concentrado de cannabis, com 90% de THC, e é feito a partir da cepa de cannabis Sour Diesel, uma variedade sativa conhecida por seu efeito energético e criativo. Além disso, este produto também é conhecido por seu efeito falante, o que o torna uma escolha popular para aqueles que desejam se socializar ou se envolver em atividades criativas. Se você está procurando um produto potente e estimulante de cannabis, o Sour Diesel Shatter 90% da Myconha pode ser uma excelente opção.",
     tags: ["concentrado", "shatter"],
+    porPeso: true,
   },
   {
     id: 40,
@@ -955,6 +957,7 @@ export const flores = [
     descricao: "A Sour Diesel é uma daquelas cepas que te fazem sentir como se estivesse em uma viagem pelo espaço sideral. Com um aroma que lembra gasolina e limão, é como se você estivesse sentado em uma nave espacial com o motor ligado. E quando você dá uma tragada, é como se tivesse decolado rumo às estrelas. Essa é uma daquelas flores que te fazem se sentir mais criativo, mais energético e mais focado. Ideal para quem precisa de um empurrãozinho para fazer tarefas chatas ou simplesmente quer deixar a mente voar. Mas cuidado para não se perder no universo, hein?",
     tags: ["flores", "flor", "flower"],
     muitoVendido: true,
+    
   },
   {
     id: 84,
@@ -1888,4 +1891,3 @@ export const tabacaria = [
     tags: ["headshop","tabacaria", "tabaco"],
   },
  ];
-

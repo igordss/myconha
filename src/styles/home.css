@@ -1,31 +1,34 @@
-.banner {
-  height: 70%;
-  background-color: #FF69B4;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+/* CSS para estilizar a home page */
+
+/* Estilo do container principal */
+.home-container {
+  margin-top: 100px; /* Espaço entre o header e o conteúdo */
+  padding: 20px;
 }
 
-.banner-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 70%;
-  margin: 0 auto;
+/* Estilo do título de boas-vindas */
+.welcome h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
 }
 
-.welcome {
-  margin-left: 20px;
-  color: #000;
-}
-
-.welcome-text {
+/* Estilo do subtítulo */
+.welcome h2 {
   font-size: 24px;
-  color: black;
-  margin-right: 20px;
+  color: #666;
+  margin-bottom: 40px;
 }
 
-.logo-banner {
-  height: 80%;
-  margin-right: 20px;
+/* Estilo do conteúdo da página principal */
+.home-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Estilo do rodapé */
+.footer {
+  margin-top: 40px; /* Espaço entre o conteúdo e o rodapé */
 }

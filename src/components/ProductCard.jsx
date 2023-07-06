@@ -1,30 +1,36 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import '../styles/productCard.css'
+import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { Link } from "react-router-dom";
+import { addToCart } from '../actions/index';
+import '../styles/productCard.css';
 
-function ProductCard({ product }) {
-  const { nome, marca, imagem, preco, precoPromocional, promocao } = product;
+const ProductCard = ({ product, productId }) => {
+  const dispatch = useDispatch();
+  const [quantity, setQuantity] = useState(1);
+
+  const handleAddToCart = () => {
+    const price = product.promocao ? product.precoPromocional : product.preco;
+    dispatch(addToCart(product, quantity, price));
+  };
+
+  const handleQuantityChange = (event) => {
+    setQuantity(parseInt(event.target.value));
+  };
 
   return (
     <div className="product-card">
-      <div className="product-card__image-container">
-        <img className="product-card__image" src={imagem} alt={nome} />
-      </div>
-      <div className="product-card__content">
-        <h3 className="product-card__title">{`${nome} - ${marca}`}</h3>
-        <div className="product-card__prices">
-          <span className="product-card__price">{`R$ ${preco.toFixed(2)}`}</span>
-          {promocao && precoPromocional ? (
-            <span className="product-card__promo-price">{`R$ ${precoPromocional.toFixed(
-              2
-            )}`}</span>
-          ) : null}
-        </div>
-        <button className="product-card__button">Adicionar ao Carrinho</button>
-        <Link className="product-card__link" to={`/produtos/${product.id}`}>Mais sobre</Link>
-      </div>
+      <h2 className="product-title">{`${product.nome} - ${product.marca}`}</h2>
+      <img className="product-image" src={product.imagem} alt={product.nome} />
+      <h3 className="product-price">Preço: {product.promocao ? product.precoPromocional : product.preco}</h3>
+      {product.porPeso ? (
+        <input type="number" min={1} max={500} value={quantity} onChange={handleQuantityChange} />
+      ) : (
+        <input type="number" min={1} max={15} value={quantity} onChange={handleQuantityChange} />
+      )}
+      <button className="add-button" onClick={handleAddToCart}>Adicionar ao Carrinho</button>
+      <Link to={`/in-progress`} className="see-more-button">Saber Mais</Link>
     </div>
   );
-}
+};
 
 export default ProductCard;

@@ -57,6 +57,7 @@ const Footer = () => {
       </div>
       <div className="footer-bottom">
         <p>&copy; 2023 - Todos os direitos reservados</p>
+        <p>Desenvolvido por Igor Sousa</p>
       </div>
     </footer>
   );

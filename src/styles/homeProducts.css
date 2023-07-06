@@ -1,24 +1,36 @@
-.product-cards-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 1rem;
-  }
-  
-  @media (max-width: 768px) {
-    .product-cards-container {
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(3, 1fr);
-    }
-  }
-  
-  .product-cards-container__top {
-    grid-column: 1 / -1;
-    grid-row: 1 / 2;
-  }
-  
-  .product-cards-container__bottom {
-    grid-column: 1 / -1;
-    grid-row: 2 / 3;
-  }
-  
+/* CSS para estilizar o componente HomeProducts */
+
+.home-products {
+  margin-top: 40px;
+}
+
+.product-section {
+  margin-bottom: 40px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-card {
+  flex-basis: 23%;
+  margin-bottom: 20px;
+  max-width: 300px; /* Defina um tamanho máximo para os cards */
+}
+
+.product-section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.product-section a {
+  font-size: 14px;
+  color: white;
+}
+
+.product-section a:hover {
+  color: green;
+}

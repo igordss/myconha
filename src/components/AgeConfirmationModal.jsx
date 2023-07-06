@@ -35,8 +35,10 @@ const AgeConfirmationModal = ({ isOpen, onRequestClose, onConfirm, ageConfirmed 
           <div className='modal-text'>
             <p>Sejam muito bem-vindos ao meu projeto mais ousado e, digamos, polêmico! Aqui vocês poderão conferir como seria um site de venda de maconha se ela fosse legalizada no Brasil, o que vai demorar bastante. Mas calma, já aviso que esse site é apenas um projeto de demonstração, então não se animem demais.</p>
             <br /> <p>Ah, e já que estamos falando de legalização, quero deixar claro que esse projeto não tem nenhum intuito comercial, tá? Aqui não vendemos nada, nem apoiamos esse tipo de coisa. A intenção é apenas educar sobre drogas e reduzir danos, tudo respaldado pelo julgamento da ADPF 187.</p>
-            <br /> <p>Este projeto é totalmente autoral, utilizando somente imagens de terceiros, desenvolvido por mim, Igor Sousa, sem ter sido copiado de qualquer vídeo ou curso. Está sendo desenvolvido para colocar em prática todo meu conhecimento em programação front-end e, futuramente, pretendo complementá-lo com o back-end, construindo o site por completo. E eu estou sempre atualizando o projeto, adicionando novas funcionalidades e deixando tudo mais realista.</p>
+            <br /> <p>Este projeto é totalmente autoral, utilizando somente imagens de terceiros, desenvolvido e pensado por mim, Igor Sousa. Está sendo desenvolvido para colocar em prática todo meu conhecimento em programação front-end e, futuramente, pretendo complementá-lo com o back-end, construindo o site por completo. E eu estou sempre atualizando o projeto, adicionando novas funcionalidades e deixando tudo mais realista.</p>
+           <br /> <p>Até o momento desenvolvi algumas funcionaliades e páginas. Parei um pouco o desenvolvimento pra dar uma estudada e UI e implementar layouts bonitos e profissionais nesse e em outros futuros projetos</p>
             <br /> <p>Enfim, espero que vocês curtam esse projeto tanto quanto eu estou curtindo desenvolvê-lo. Está sendo um desafio e tanto, mas estou muito feliz com o que isso tem se tornado.</p>
+            
             <br /><p>MANDA JOB</p>
           </div>
           <h1 className='question'>Você tem 18 anos ou mais?</h1>
